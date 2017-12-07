@@ -166,6 +166,17 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p> OS Thread Manager </p>
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/OSProject.jpg" class="img-responsive" alt="Memory Game">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -237,7 +248,7 @@
                   <dt style="font-size: 22px">CBSE Senior School Examination (Class 12) </dt>
                   <br>
                   <dd style="font-size: 16px">Graduated from Global Indian International School, Queenstown, Singapore</dd>
-                  <dd style="font-size: 16px"> Final Score: 87% on 100%</dd>
+                  <dd style="font-size: 16px"> Final Score: 87%</dd>
                   <br>
                   <br>
                   <dt style="font-size: 22px">CBSE Secondary School Examination (Class 10) </dt>
@@ -815,6 +826,63 @@
                             </div>
                         </div>
                       </div>
+                      <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+                          <div class="modal-content">
+                              <div class="close-modal" data-dismiss="modal">
+                                  <div class="lr">
+                                      <div class="rl">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-lg-8 col-lg-offset-2">
+                                          <div class="modal-body">
+                                              <h2>OS Thread Manager</h2>
+                                              <hr class="star-primary">
+                                              <img src="img/portfolio/OSProject.jpg" class="img-responsive img-centered" alt="">
+                                              <p>This project was part of my Operating Systems course work assignment. It was required to design a PID manager that
+                                                allocated a unique process identifier to each process. By writing a
+                                                program that created a number of threads that requested and released
+                                                process identifiers, I was to ensure that the data structure used to represent the availability of
+                                                process identifiers is safe from race conditions. I had implemented the use of Pthreads mutex locks </p>
+                                              </br>
+                                              <p> The second part of the project was as follows:</p>
+                                            </br>
+                                            <p>Write a multithreaded sorting program that works as follows: A list of integers
+                                              is divided into two smaller lists of equal size. Two separate threads (which we
+                                              will term sorting threads) sort each sublist using a sorting algorithm of your
+                                              choice. The two sublists are then merged by a third thread—a merging thread
+                                              —which merges the two sublists into a single sorted list.
+                                              Because global data are shared cross all threads, perhaps the easiest way
+                                              to set up the data is to create a global array. Each sorting thread will work on
+                                              one half of this array. A second global array of the same size as the unsorted
+                                              integer array will also be established. The merging thread will then merge
+                                              the two sublists into this second array.
+                                              This programming project will require passing parameters to each of the
+                                              sorting threads. In particular, it will be necessary to identify the starting index
+                                              from which each thread is to begin sorting.
+                                              The parent thread will output the sorted array once all sorting threads have
+                                              exited.</p>
+
+                                              </p> Find the project repository <a href="https://github.com/pronaypeddiraju/OS-Project">here</a>.</p>
+                                              <ul class="list-inline item-details">
+                                                  <li>Date:
+                                                      <strong>May 2015
+                                                      </strong>
+                                                  </li>
+                                                  <li>Type:
+                                                      <strong>C++ program
+                                                      </strong>
+                                                  </li>
+                                              </ul>
+                                              <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
